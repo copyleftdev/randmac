@@ -20,7 +20,7 @@ func randomMAC() (net.HardwareAddr, error) {
 }
 
 func main() {
-	// Generate a new random MAC address
+	// Generate a random MAC address
 	mac, err := randomMAC()
 	if err != nil {
 		panic(err)
